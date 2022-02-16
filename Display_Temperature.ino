@@ -30,7 +30,7 @@ sensors.begin();
 }
 
 void loop() {
-  delay(10000);
+  delay(1000);
   sensors.requestTemperatures(); 
    display.println(sensors.getTempCByIndex(0));
   yield();
